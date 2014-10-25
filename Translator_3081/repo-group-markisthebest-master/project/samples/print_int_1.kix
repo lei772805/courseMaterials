@@ -1,2 +1,0 @@
-main :: ( args::[String] ) -> Integer
-  = print (1 + 2) ;

@@ -1,2 +1,0 @@
-Rong did a lot of the the Classes and Parser. He also did the Doxygen.
-Mark did the Testing, UML, and some of the Classes and Parser. 

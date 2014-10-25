@@ -1,3 +1,0 @@
-First 4 test cases(simple 1 to 4), lists_3 and squareFile were done jointly.
-Rong did print_int_1, print_int_2, read_int, and the two extra credit test cases.
-Mark did lists_1, lists_2, and squareMap testscases.

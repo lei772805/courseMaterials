@@ -1,1 +1,0 @@
-Makefile and changes to code were done jointly in lab. 
