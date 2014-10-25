@@ -1,0 +1,12 @@
+add :: ( n::Integer, m::Integer ) -> Integer
+ = n + m ;
+
+vecSum :: ( vs::[Integer] ) -> Integer
+  = fold ( add, 0, vs ) ;
+
+main :: ( args::[String] ) -> Integer
+  = let ns :: [Integer] = [ 1 .. 10 ] ;
+    in  print ( vecSum ( ns ) )
+    end ;
+
+

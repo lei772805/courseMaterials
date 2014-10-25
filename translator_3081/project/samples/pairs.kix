@@ -1,0 +1,7 @@
+main :: ( args::[String] ) -> Integer
+ = let xs :: [ Integer ] = [ 1 .. 10 ] ;
+       ys :: [ Integer ] = [ 11 .. 20 ] ;
+       ps :: [ ( Integer, Integer ) ] = zip ( xs, ys ) ;
+   in 
+       print ( ps ) 
+   end ;

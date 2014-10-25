@@ -1,0 +1,10 @@
+mkSquares :: ( ns :: [ Integer ] ) -> [ Integer ] 
+  = if null (ns)
+    then [ <Integer> ]
+    else ( head ( ns ) * head ( ns ) ) : mkSquares ( tail ( ns ) ) ; 
+
+main :: ( args :: [ String ] ) -> Integer
+  = let numbers :: [ Integer ] = [ 1 .. 10 ] ;
+        squaredNumbers :: [ Integer ] = mkSquares ( numbers ) ;
+    in  print ( squaredNumbers )
+    end ;

@@ -1,0 +1,6 @@
+main :: ( args :: [ String ] ) -> Integer
+  = let someNumbers :: [ Integer ] = [ <Integer> 1, 2, 3 ] ;
+        moreNumbers :: [ Integer ] = [ 4 .. 10 ] ;
+        allNumbers :: [ Integer ] = someNumbers + moreNumbers ;
+    in  print ( allNumbers )
+    end ;

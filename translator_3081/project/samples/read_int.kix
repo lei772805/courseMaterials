@@ -1,0 +1,6 @@
+main :: ( args::[String] ) -> Integer
+  = let x :: Integer = read <Integer> ( "../samples/oneValue.dat" ) ;
+        y :: Integer = 5 ;
+     in
+        print ( x * y ) 
+     end ;
