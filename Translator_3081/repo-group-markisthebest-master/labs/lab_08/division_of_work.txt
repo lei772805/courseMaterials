@@ -1,0 +1,2 @@
+Mark: Did problems 5, 6, intro, and conclusion. Made the array in the code.
+Rong: Did problems 1, 2, 3, 4. Made the loop so the if statments were deleted in the code. Made the regex array global in code.

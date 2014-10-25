@@ -1,0 +1,13 @@
+add :: ( n::Integer, m::Integer ) -> Integer
+ = n + m ;
+
+mul :: ( n::Integer, m::Integer ) -> Integer
+ = n * m ;
+
+main :: ( args::[String] ) -> Integer
+  = let x :: Integer = 3 ;
+        y :: Integer = 4 ;
+	z :: Integer = 5 ;
+     in
+        if mul(x,y) > add(y,z) then mul(x,9) else add(y,20)
+     end ;

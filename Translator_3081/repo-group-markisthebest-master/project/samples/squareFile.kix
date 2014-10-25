@@ -1,0 +1,11 @@
+mkSquares :: ( ns :: [ Integer ] ) -> [ Integer ] 
+  = if null (ns)
+    then [ <Integer> ]
+    else ( head ( ns ) * head ( ns ) ) : mkSquares ( tail ( ns ) ) ; 
+
+main :: ( args :: [ String ] ) -> Integer
+  = let numbers :: [ Integer ] = 
+           read<[Integer]> ( "../samples/numsToSquare.dat" ) ;
+	squaredNumbers :: [ Integer ] = mkSquares ( numbers ) ; 
+    in  print ( squaredNumbers )
+    end ;
